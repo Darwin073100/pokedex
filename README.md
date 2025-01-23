@@ -9,6 +9,17 @@
 $ npm install --force
 ```
 
+## Levantar la base de datos
+Utilizamos docker compose 
+```
+$ docker compose up -d
+```
+
+## Reconstruir la base de datos con la semilla
+```
+http://localhost:3000/api/v2/seed
+```
+
 ## Compile and run the project
 
 ```bash
@@ -34,9 +45,6 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-## Levantar la base de datos
-
-Utilizamos docker compose `docker compose up -d`
 
 ## Stack usado
 * MongoDB
