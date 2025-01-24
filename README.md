@@ -9,6 +9,9 @@
 $ npm install --force
 ```
 
+## Variables de entorno
+Clonar el archivo __.env.template__, cambiar el nombre a __.env__ y verificar los valores de las variables de entorno.
+
 ## Levantar la base de datos
 Utilizamos docker compose 
 ```
@@ -20,7 +23,7 @@ $ docker compose up -d
 http://localhost:3000/api/v2/seed
 ```
 
-## Compile and run the project
+## Compilar y correr el proyecto
 
 ```bash
 # development
@@ -33,7 +36,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Run tests
+## Correr los tests
 
 ```bash
 # unit tests
@@ -45,7 +48,6 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
 ## Stack usado
 * MongoDB
 * Nest
